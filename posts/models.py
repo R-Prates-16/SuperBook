@@ -1,6 +1,5 @@
 from django.db import models
 from heroes.models import Hero
-# Create your models here.
 
 class Post(models.Model):
     autor = models.ForeignKey(Hero, on_delete=models.CASCADE, related_name="posts")
@@ -21,4 +20,3 @@ class Like(models.Model):
 
     def __str__(self):
         return f"{self.heroi.codinome} curtiu {self.post.id}"
-
