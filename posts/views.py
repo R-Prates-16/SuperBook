@@ -12,3 +12,5 @@ class PostListView(ListView):
     model = Post
     template_name = "posts/lista_posts.html"
     context_object_name = "posts"
+
+# Rian Prates
