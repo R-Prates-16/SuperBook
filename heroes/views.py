@@ -18,3 +18,6 @@ class HeroListView(ListView):
     model = Hero
     template_name = "heroes/lista_herois.html"
     context_object_name = "herois"
+
+
+# Rian Prates

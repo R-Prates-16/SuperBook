@@ -5,3 +5,7 @@ urlpatterns = [
     path('lista/', lista_posts, name='lista_posts'),
     path('cbv-lista/', PostListView.as_view(), name='cbv_lista_posts')
 ]
+
+
+
+#Rian Prates
