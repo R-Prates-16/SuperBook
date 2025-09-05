@@ -1,11 +1,11 @@
+
 from django.urls import path
-from .views import *
+from . import views
 
 urlpatterns = [
-    path('lista/', lista_posts, name='lista_posts'),
-    path('cbv-lista/', PostListView.as_view(), name='cbv_lista_posts')
+    path('lista/', views.lista_posts, name='lista_posts'),
+    path('novo/', views.criar_post, name='criar_post'),  # nova rota para criar posts
 ]
-
 
 
 #Rian Prates
