@@ -12,3 +12,4 @@ class Hero(models.Model):
     def __str__(self):
         return self.codinome
 
+# Rian Prates 

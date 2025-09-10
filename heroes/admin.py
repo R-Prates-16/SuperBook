@@ -21,3 +21,4 @@ class HeroAdmin(admin.ModelAdmin):
     )
     readonly_fields = ['criado_em']
 
+# Rian Prates
